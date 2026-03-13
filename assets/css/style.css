@@ -954,7 +954,7 @@ textarea {
 
     .fade {
         opacity: 0;
-        transform: translateY(8px);
+        transform: translateY(-15px);
         transition: opacity .7s ease, transform .9s ease;
     }
 
