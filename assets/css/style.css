@@ -295,6 +295,11 @@ footer a {
     transform-origin: left;
 }
 
+.person {
+    box-shadow: 0 18px 25px rgba(0, 0, 0, .08);
+    margin: 0 auto 2em auto;
+}
+
 .ms_img {
     font-size: 30px;
     font-weight: 900;
@@ -1071,7 +1076,8 @@ textarea {
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 90%;
+        width: 100%;
+        padding: 0 2em;
         margin: 0 auto 20px auto;
     }
 
