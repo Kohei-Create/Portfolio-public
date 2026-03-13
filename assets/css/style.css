@@ -13,7 +13,6 @@ body {
     flex-direction: column;
     width: 100%;
     min-width: 350px;
-    max-width: 1920px;
     min-height: 100vh;
     font-family: "Noto Sans JP", Arial, "Helvetica Neue", "Helvetica", "Hiragino Sans", "Arial", "Yu Gothic", "Meiryo", sans-serif;
     font-size: 15px;
@@ -29,7 +28,6 @@ body {
 /* header */
 
 .header {
-    max-width: 1920px;
     background: #fff;
     margin: 0 auto;
     padding: 1em 0;
@@ -301,9 +299,12 @@ footer a {
 }
 
 .ms_img {
+    margin: 2em auto;
+    padding: 0 1em;
+    width: 90%;
+    min-width: 80%;
     font-size: 30px;
     font-weight: 900;
-    margin-left: 20px;
 }
 
 .person_img {
@@ -979,7 +980,7 @@ textarea {
         background: #fff;
         display: flex;
         justify-content: space-between;
-        padding: 1.2em 0;
+        padding: 2em 0;
         width: 100%;
         position: fixed;
         z-index: 100;
@@ -1073,20 +1074,27 @@ textarea {
         font-size: 40px;
         width: 100%;
         text-align: left;
-        display: inline-block;
-        margin: 30px 0 30px 1em;
-        padding: 0 1em;
+        padding: 0;
+        margin: 10px 0 ;
+    }
+
+    .person-box {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
     }
 
     .person {
         background: #fbfbfb;
-        box-shadow: 0 12px 20px rgba(0, 0, 0, .1);
-        display: flex;
-        align-items: center;
+        display: inline-flex;
+        flex-direction: row;
+        margin: 2em auto 20px auto;
+        padding: 20px 0;
         justify-content: center;
+        align-items: center;
         width: 100%;
-        padding: 0 2em;
-        margin: 0 auto 20px auto;
+        max-width: 1800px;
+        box-shadow: 0 12px 20px rgba(0, 0, 0, .1);
     }
 
     .person_img {
@@ -1094,21 +1102,18 @@ textarea {
         margin: 0 3em;
     }
 
-    /* .function {} */
-
     .role_box {
-        text-align: left;
-        display: inline-block;
+        display: block;
     }
 
     .role {
+        text-align: left;
         font-size: 30px;
         font-weight: 600;
     }
 
     .person_name {
         text-align: left;
-        display: inline-block;
         font-size: 40px;
         font-weight: 900;
     }
@@ -1116,6 +1121,7 @@ textarea {
     .position_box {
         display: inline-block;
         text-align: left;
+        width: 100%;
     }
 
     .position {
