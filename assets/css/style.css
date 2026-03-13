@@ -947,14 +947,6 @@ textarea {
 
 @media screen and (min-width:770px) {
 
-    /* base */
-
-    body {
-        width: 100%;
-        max-width: 1920px;
-        position: relative;
-    }
-
     /* fade */
 
     .fade {
