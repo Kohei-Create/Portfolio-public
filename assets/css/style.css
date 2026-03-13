@@ -340,8 +340,19 @@ footer a {
 /* skills */
 
 .skills {
+    width: 100%;
     text-align: center;
     margin: 0 auto;
+}
+
+.skill_span {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 0 1em;
+    width: 90%;
+    height: auto;
+    align-items: stretch;
 }
 
 .skill_msg {
@@ -355,25 +366,27 @@ footer a {
     background: #f7f7f7;
     margin: 0 auto;
     margin-bottom: 3em;
+    text-align: center;
     padding: 20px 0;
     width: 90%;
     box-shadow: 0 15px 25px rgba(0, 0, 0, .20);
 }
 
-.skill_type-span {
+.skill_type-title {
     margin-bottom: 1em;
     font-size: 25px;
     font-weight: 900;
 }
 
 .skill_list {
-    list-style: none;
-    text-align: left;
-    display: inline-block;
+    display: inline-flex;
+    flex-direction: column;
+    margin: 0 auto;
+    gap: 1em;
 }
 
 .skill_item {
-    margin-bottom: 1em;
+    text-align: left;
     font-size: 18px;
     font-weight: 600;
 }
@@ -382,14 +395,23 @@ footer a {
     margin-bottom: 0;
 }
 
+.skill_protocol {
+    display: block;
+    margin: 2em auto 0 auto;
+    padding: 0 1em;
+    text-align: left;
+    width: 70%;
+}
+
 /* .skill_protocol {} */
 
 .mail_about {
+    display: block;
     background: #f1f1f1;
     margin: 0 auto;
+    padding: 0 1em;
     width: 90%;
     height: 450px;
-    display: block;
 }
 
 picture {
@@ -1117,11 +1139,10 @@ textarea {
 
     .skill_span {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
         justify-content: center;
         gap: 3em;
-        margin: 0 auto;
-        width: 60%;
+        margin: 0 auto 5em auto;
     }
 
     .skill_type {
@@ -1132,12 +1153,6 @@ textarea {
         padding: 2em 0;
         border-radius: 10px;
         box-shadow: 0 8px 20px rgba(0, 0, 0, .14);
-    }
-
-    .skill_type:last-child {
-        width: 500px;
-        grid-column: 1/-1;
-        margin-bottom: 5em;
     }
 
     .skill_type-span {
