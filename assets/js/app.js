@@ -28,4 +28,12 @@ document.querySelectorAll(".video_box").forEach(box => {
         video.play();
     });
 
+    video.addEventListener("ended", () => {
+        thumb.classList.remove("is-hidden");
+        thumb.style.display = "block";
+        thumb.style.opacity = "1";
+        thumb.style.pointerEvents = "auto";
+        video.currentTime = 0;
+    });
+
 });
