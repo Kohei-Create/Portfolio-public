@@ -314,7 +314,6 @@ footer a {
 
 .ms_img {
     margin: 2em auto;
-    padding: 0 1em;
     width: 90%;
     min-width: 80%;
     font-size: 30px;
@@ -324,6 +323,7 @@ footer a {
 .person_img {
     display: block;
     width: 80%;
+    height: auto;
     margin: 30px auto;
     aspect-ratio: 3/4;
     object-fit: cover;
@@ -491,14 +491,15 @@ footer a {
     display: block;
     background: #f1f1f1;
     margin: 0 auto;
-    padding: 0 1em;
+    padding: 0 1em 20px;
     width: 90%;
-    height: 450px;
+    height: auto;
+    align-items: stretch;
 }
 
 @media screen and (max-width:400px) {
     .mail_about {
-        padding: 0;
+        padding: 0 0 20px;
     }
 }
 
