@@ -1126,15 +1126,18 @@ textarea {
     }
 
     .role_box {
+        text-align: left;
         display: block;
     }
 
     .role {
         font-size: 30px;
         font-weight: 600;
+        padding: 0;
     }
 
     .person_name {
+        text-align: left;
         font-size: 40px;
         font-weight: 900;
     }
@@ -1148,16 +1151,6 @@ textarea {
         font-size: 20px;
         font-weight: 500;
         line-height: 2;
-    }
-
-    .position:first-child {
-        min-width: 350px;
-        width: 60%;
-    }
-
-    .position:last-child {
-        min-width: 350px;
-        width: 60%;
     }
 
     /* ==========
