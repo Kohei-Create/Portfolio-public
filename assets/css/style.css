@@ -46,8 +46,16 @@ body {
 }
 
 .svg_logo {
+    display: block;
     width: 180px;
+    height: auto;
     margin-left: 2em;
+}
+
+@media screen and (max-width:400px) {
+    .svg_logo {
+        width: 150px;
+    }
 }
 
 .nav {
@@ -410,11 +418,12 @@ footer a {
 }
 
 .skill_span {
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
-    padding: 0 1em;
-    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px,1fr));
+    gap: 3em;
+    justify-content: center;
+    margin: 0 auto 3em;
+    width: 100%;
     height: auto;
     align-items: stretch;
 }
@@ -485,6 +494,12 @@ footer a {
     padding: 0 1em;
     width: 90%;
     height: 450px;
+}
+
+@media screen and (max-width:400px) {
+    .mail_about {
+        padding: 0;
+    }
 }
 
 picture {
@@ -1091,10 +1106,11 @@ textarea {
         background: #fbfbfb;
         display: inline-flex;
         flex-direction: row;
-        margin: 2em auto 20px auto;
+        margin: 2em auto 20px;
         padding: 20px 0;
         justify-content: center;
         align-items: center;
+        text-align: left;
         width: 100%;
         max-width: 1800px;
         box-shadow: 0 12px 20px rgba(0, 0, 0, .1);
@@ -1110,20 +1126,17 @@ textarea {
     }
 
     .role {
-        text-align: left;
         font-size: 30px;
         font-weight: 600;
     }
 
     .person_name {
-        text-align: left;
         font-size: 40px;
         font-weight: 900;
     }
 
     .position_box {
         display: inline-block;
-        text-align: left;
         width: 100%;
     }
 
@@ -1152,14 +1165,6 @@ textarea {
         font-weight: 900;
     }
 
-    .skill_span {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-        justify-content: center;
-        gap: 3em;
-        margin: 0 auto 5em auto;
-    }
-
     .skill_type {
         background: #f7f7f7;
         width: 100%;
@@ -1180,9 +1185,6 @@ textarea {
         font-size: 20px;
         font-weight: 600;
     }
-
-    .skill_protocol {}
-
 
     /* mail_about */
 
