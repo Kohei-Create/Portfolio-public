@@ -18,6 +18,7 @@ body {
     font-size: 15px;
     color: #333;
     line-height: 1.5;
+    margin: 0 auto;
 }
 
 /* =======================
@@ -297,7 +298,7 @@ footer a {
 
 .person {
     box-shadow: 0 18px 25px rgba(0, 0, 0, .08);
-    margin: 0 auto 2em auto;
+    margin: 0 auto 2em;
 }
 
 .ms_img {
