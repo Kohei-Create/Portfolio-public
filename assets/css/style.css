@@ -1242,19 +1242,6 @@ textarea {
 
 @media screen and (min-width:768px) {
 
-    /* fade */
-
-    .fade {
-        opacity: 0;
-        transform: translateY(-15px);
-        transition: opacity .7s ease, transform .9s ease;
-    }
-
-    .fade.is-show {
-        opacity: 1;
-        transform: translateY(0);
-    }
-
     /* header */
 
     .header {
