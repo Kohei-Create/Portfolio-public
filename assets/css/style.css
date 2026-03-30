@@ -12,7 +12,7 @@ body {
     display: flex;
     flex-direction: column;
     width: 100%;
-    min-width: 350px;
+    min-width: 320px;
     min-height: 100vh;
     font-family: "Noto Sans JP", Arial, "Helvetica Neue", "Helvetica", "Hiragino Sans", "Arial", "Yu Gothic", "Meiryo", sans-serif;
     font-size: 15px;
@@ -176,6 +176,7 @@ main {
     flex: 1;
     width: 100%;
     margin: 0 auto;
+    padding: 0;
 }
 
 /* fade */
@@ -361,7 +362,7 @@ footer a {
     transition: .4s;
 }
 
-@media screen and (min-width:770px) {
+@media screen and (min-width:768px) {
     
     .view-works-link {
         background: #f7f7f7;
@@ -951,11 +952,11 @@ textarea {
 
 /* =======================
     
-    breakpoints（min-width:770px）
+    breakpoints（min-width:768px）
 
     ======================== */
 
-@media screen and (min-width:770px) {
+@media screen and (min-width:768px) {
 
     /* fade */
 
@@ -1053,6 +1054,8 @@ textarea {
     main {
         flex: 1;
         width: 100%;
+        margin: 0 auto;
+        padding: 0 1em;
     }
 
     /* section */
