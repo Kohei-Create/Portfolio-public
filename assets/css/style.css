@@ -271,14 +271,14 @@ footer a {
 ======================= */
 
 .hero {
+    background-color: rgba(0, 0, 0, .03);
+    margin: 10em auto 0;
+    padding: 2em 1em;
     display: flex;
     flex-direction: column;
     width: 100%;
     max-width: 1200px;
     text-align: center;
-    margin: 2em auto 0;
-    padding: 2em 1em;
-    background-color: #eee;
 }
 
 .hero-card {
@@ -334,7 +334,7 @@ footer a {
 
 .works-preview {
     width: min(1200px,100%);
-    margin: 3em auto 0;
+    margin: 3em auto;
 }
 
 .section-title {
@@ -347,7 +347,7 @@ footer a {
     grid-template-columns: repeat(auto-fit, minmax(280px,1fr));
     width: 100%;
     max-width: 1200px;
-    margin: 20px auto 0;
+    margin: 20px auto;
     padding: 0 1em;
     gap: 1.5em;
     align-items: stretch;
@@ -362,12 +362,9 @@ footer a {
 }
 
 .work-card a {
+    display: block;
     text-decoration: none;
     color: #333;
-}
-
-.work-card-thumb {
-
 }
 
 .work-card-thumb img {
@@ -379,18 +376,27 @@ footer a {
 }
 
 .work-card-info {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
     padding: .75rem 0;
     text-align: center;
-    margin: 0 auto;
+    margin: 20px auto 0;
     padding: 0 1em;
 }
 
 .work-cord-tag {
-
+    font-size: 17px;
+    font-weight: 600;
 }
 
 .work-cord-title {
+    font-size: 20px;
+    font-weight: 900;
+}
 
+.works-preview-footer {
+    margin-top: 2em;
 }
 
 
