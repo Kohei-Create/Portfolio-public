@@ -425,6 +425,7 @@ footer a {
     justify-content: center;
     margin: 0 auto 3em;
     width: 100%;
+    max-width: 1800px;
     height: auto;
     align-items: stretch;
 }
