@@ -399,21 +399,140 @@ footer a {
     margin-top: 2em;
 }
 
+.cta {
+    display: flex;
+    flex-direction: column;
+    padding: 2em 0;
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.cta-box {
+    background-color: #00acee;
+    box-shadow: 0 14px 20px rgba(0, 0, 0, .14);
+    padding: 20px 1em;
+    width: 80%;
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+.cta-txt,
+.cta-txt-small {
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.cta-txt {
+    flex-wrap: nowrap;
+}
+
+.cta-txt-small {
+    display: none;
+}
+
+.call-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.call-box img {
+    display: block;
+    width: 20px;
+    height: 20px;
+    margin: 10px 5px 0 0;
+}
+
+.cta-box a {
+    text-decoration: none;
+    display: block;
+}
+
+.call-number {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 900;
+    transition: .4s;
+    white-space: nowrap;
+}
+
+.call-number:hover,
+.call-number:focus {
+    color: #ccc;
+}
+
+.cta-btn {
+    background-color: #fff;
+    margin: 0 auto;
+    padding: 20px 0;
+    width: 90%;
+    min-width: 250px;
+    color: #00acee;
+    font-size: 20px;
+    font-weight: 900;
+    border: 3px solid #fff;
+    transition: .4s ease;
+}
+
+.cta-btn:hover,
+.cta-btn:focus {
+    background-color: #00acee;
+    color: #fff;
+}
+
+@media screen and (max-width:540px) {
+    
+    .cta-box {
+        width: 100%;
+    }
+
+    .cta-txt-small {
+        display: block;
+    }
+
+    .cta-txt {
+        display: none;
+    }
+
+    .call-box {
+        display: none;
+    }
+
+}
+
+@media screen and (min-width:768px) {
+
+    .cta-box {
+        display: flex;
+        flex-direction: row;
+        gap: 2em;
+        justify-content: space-between;
+        border-radius: 12px;
+        min-width: 500px;
+    }
+
+    .cta-txt-box {
+        margin-left: 3em;
+    }
+
+    .cta-btn {
+        border-radius: 12px;
+        max-width: 300px;
+        margin: 0 3em 0 0;
+    }
 
 
-
-
-
-
-
-
-
+}
 
 /* =======================
-    
-    section
 
-    ======================== */
+section
+
+======================== */
 
 /* about */
 
