@@ -266,6 +266,141 @@ footer a {
     border-top: 1px solid #ccc;
 }
 
+/* ======================
+    index.html
+======================= */
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1200px;
+    text-align: center;
+    margin: 2em auto 0;
+    padding: 2em 1em;
+    background-color: #eee;
+}
+
+.hero-card {
+    background-color: #fff;
+    width: 90%;
+    height: auto;
+    align-items: center;
+    margin: 0 auto;
+    padding: 2em 0;
+    border-radius: 12px;
+    box-shadow: 0 14px 20px rgba(0, 0, 0, .14);
+}
+
+.hero-role {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.person-name {
+    margin: 20px auto;
+}
+
+.hero-copy {
+    font-size: 22px;
+    font-weight: 700;
+    width: 100%;
+}
+
+.btn {
+    display: block;
+    background: #00acee;
+    text-decoration: none;
+    text-align: center;
+    width: 40%;
+    min-width: 250px;
+    margin: 10px auto 0;
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 700;
+    border-radius: 50px;
+    transition: .4s ease;
+    border: 3px solid #00acee;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, .14);
+}
+
+.btn:hover,
+.btn:focus {
+    background-color: #fff;
+    color: #00acee;
+    box-shadow: none;
+}
+
+.works-preview {
+    width: min(1200px,90%);
+    margin: 3em auto 0;
+}
+
+.section-title {
+    text-align: center;
+    margin: 1em auto 0;
+}
+
+.works-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px,1fr));
+    width: 100%;
+    max-width: 1200px;
+    margin: 20px auto 0;
+    padding: 0 1em;
+    gap: 1.5em;
+    align-items: stretch;
+}
+
+.work-card {
+    padding: 20px 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    box-shadow: 0 14px 20px rgba(0, 0, 0, .14);
+}
+
+.work-card a {
+    text-decoration: none;
+    color: #333;
+}
+
+.work-card-thumb {
+
+}
+
+.work-card-thumb img {
+    display: block;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+}
+
+.work-card-info {
+    padding: .75rem 0;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.work-cord-tag {
+
+}
+
+.work-cord-title {
+
+}
+
+
+
+
+
+
+
+
+
+
 
 /* =======================
     

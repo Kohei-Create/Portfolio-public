@@ -37,102 +37,55 @@
         </nav>
     </header>
     <main>
-        <!-- 今いるページ -->
-        <div class="page">
-            <a href="index.html" class="page_link">TOP</a>
-        </div>
-        <!-- /今いるページ -->
-        <section class="person-box">
-            <div class="person">
-                <img src="assets/images/picture-person.png" alt="my-photo" class="person_img">
-                <div class="function">
-                    <div class="role_box">
-                        <p class="role">Motion Designer & Web Designer</p>
-                        <h1 class="person_name">
-                            吉田&nbsp;&nbsp;&nbsp;&nbsp;幸平
-                        </h1>
-                        <p class="ms_img">
-                            Make Design. Break Design. Along With You.
-                        </p>
-                    </div>
-                    <div class="position_box">
-                        <p class="position">
-                            造園・土木・配管・溶接など、複数の現場職を10年以上経験。<br>
-                            安全管理・段取り・精度が求められる環境で働いてきた経験が、<br>
-                            制作における「確認・整理・丁寧な仕上げ」の土台になっています。
-                        </p>
-                        <p class="position">
-                            現在はWeb制作・映像制作を軸に、実務外で個人クライアントからの依頼を複数担当。<br>
-                            要件ヒアリングから提案・制作・納品・修正対応まで、<br>
-                            一連のフローを一人で完結できます。
-                        </p>
-                    </div>
-                </div>
+        <section class="hero">
+            <article class="hero-card">
+                <p class="hero-role">Motion Designer & Web Developer</p>
+                <h1 class="person-name">吉田&emsp;幸平</h1>
+                <p class="hero-copy">Make Design. Break Design. Remake Everything.</p>
+                <a href="./contact.html" class="btn btn-primary">お仕事のご相談はこちら</a>
+            </article>
+        </section>
+
+        <section class="works-preview">
+            <h2 class="section-title">Works</h2>
+            <div class="works-grid">
+                <article class="work-card">
+                    <a href="./works.html">
+                        <div class="work-card-thumb">
+                            <img src="./assets/images/lp-site.png" alt="Video Production Landing Page">
+                        </div>
+                        <div class="work-card-info">
+                            <span class="work-cord-tag">Web Design</span>
+                            <h3 class="work-cord-title">Video Production Landing page</h3>
+                        </div>
+                    </a>
+                </article>
+                <article class="work-card">
+                    <a href="./works.html">
+                        <div class="work-card-thumb">
+                            <img src="./assets/images/vl-th.webp" alt="VLOGトランジション">
+                        </div>
+                        <div class="work-card-info">
+                            <span class="work-cord-tag">Motion Graphics</span>
+                            <h3 class="work-cord-title">VLOGトランジション</h3>
+                        </div>
+                    </a>
+                </article>
+                <article class="work-card">
+                    <a href="./works.html">
+                        <div class="work-card-thumb">
+                            <img src="./assets/images/ym_ed-th.webp" alt="配信エンドカード">
+                        </div>
+                        <div class="work-card-info">
+                            <span class="work-cord-tag">Motion Graphics</span>
+                            <h3 class="work-cord-title">配信エンドカード</h3>
+                        </div>
+                    </a>
+                </article>
             </div>
         </section>
 
-        <div class="view-works">
-            <a href="works.html" class="view-works-link">Works Page</a>
-        </div>
 
-        <section class="skills">
-            <h3 class="skill_msg">SKILLS</h3>
-            <div class="skill_span">
-                <div class="skill_type">
-                    <div class="skill_type-title">Front-End Development</div>
-                    <div class="skill_set">
-                        <div class="skill_item">HTML / CSS / JavaScript</div>
-                        <div class="skill_item">Semantic Responsive Design</div>
-                        <div class="skill_item">Flex Box / Grid</div>
-                        <div class="skill_item">JavaScript interaction</div>
-                    </div>
-                    <p class="skill_protocol">
-                        Semantic HTMLとモダンCSSを用いたWebサイト構築が可能。レスポンシブ設計やレイアウト構築を得意とし、UI/UXを意識した実装を行います。
-                    </p>
-                </div>
-                <div class="skill_type">
-                    <div class="skill_type-title">Motion Graphics Production</div>
-                    <p class="skill-paragraph">Motion Design Tools</p>
-                    <div class="skill_set">
-                        <div class="skill_item">Streaming Transition Video</div>
-                        <div class="skill_item">Text Animation</div>
-                        <div class="skill_item">Editing / Compositing</div>
-                    </div>
-                    <p class="skill_protocol">
-                        配信者向けトランジション動画やモーショングラフィック制作を経験。テキストアニメーションや映像演出の制作が可能です。
-                    </p>
-                </div>
-                <div class="skill_type">
-                    <div class="skill_type-title">Design & Creative Tools</div>
-                    <div class="skill_set">
-                        <div class="skill_item">Photopea</div>
-                        <div class="skill_item">Affinity Designer</div>
-                        <div class="skill_item">Figma(Basic)</div>
-                    </div>
-                    <p class="skill_protocol">
-                        配信者向けトランジション動画やモーショングラフィック制作を経験。テキストアニメーションや映像演出の制作が可能です。
-                    </p>
-                </div>
-            </div>
-        </section>
-
-        <section class="mail_about">
-            <picture>
-                <source srcset="assets/images/mail_img.svg" media="(max-width: 769px)">
-                <img src="assets/images/smartphone.svg" alt="" class="mail_about-img">
-            </picture>
-            <div class="offer_msg-box">
-                <h2 class="offer_intro">JOB OFFER</h2>
-                <p class="offer_msg">
-                    お仕事のご依頼&ご相談は、メールにて受け付けております。<br>
-                    お気軽にお声がけください。<br>
-                    ※フォームがご利用いただけない場合、こちらから直接メールをお送りください。
-                </p>
-                <a href="mailto:was914hs@gmail.com?subject=%E3%81%94%E6%84%8F%E8%A6%8B%E3%83%BB%E3%81%94%E8%A6%81%E6%9C%9B&body=%E3%80%90%E3%81%8A%E5%90%8D%E5%89%8D%E3%80%91%0D%0A%0D%0A%E3%80%90%E3%81%94%E7%94%A8%E4%BB%B6%E3%80%91%0D%0A%0D%0A%E3%80%90%E8%BF%94%E4%BF%A1%E5%85%88%E3%80%91"
-                    class="mail_offer"><img src="assets/images/mail_img.svg" alt="mail_img" class="mail_img"><span
-                        class="send">was914hs@gmail.com</span></a>
-            </div>
-        </section>
     </main>
     <footer class="footer">
         <a href="index.html" class="foot_top-link"><img src="assets/images/Logo_folio.svg" alt="site-logo"
