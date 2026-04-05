@@ -13,8 +13,8 @@
 body {
     color: #333;
     font-size: 15px;
-    font-family: "Noto Sans JP", "Helvetica Neue", "Helvetica", 
-    "Hiragino Sans", "Arial", "Yu Gothic", "Meiryo", sans-serif;
+    font-family: "Noto Sans JP", "Helvetica Neue", "Helvetica",
+        "Hiragino Sans", "Arial", "Yu Gothic", "Meiryo", sans-serif;
     line-height: 1.5;
     width: 100%;
     min-width: 320px;
@@ -73,7 +73,7 @@ section {
 .fv {
     width: 100%;
     height: auto;
-    
+
 }
 
 .background {
@@ -135,7 +135,7 @@ section {
 }
 
 @media screen and (max-width:499px) {
-    
+
     .call-msg {
         display: none;
     }
@@ -168,7 +168,7 @@ section {
 }
 
 @media screen and (min-width:500px) {
-    
+
     .call-msg {
         display: block;
     }
@@ -311,7 +311,7 @@ section {
     background: rgb(184, 229, 255);
     margin: 0 auto;
     padding: 0 1em;
-    width: min(400px,90%);
+    width: min(400px, 90%);
     height: auto;
     border-radius: 10px;
     padding-top: 20px;
@@ -335,9 +335,7 @@ section {
     line-height: 2;
 }
 
-.case-protocol:nth-child(1) {
-    
-}
+.case-protocol:nth-child(1) {}
 
 .case-protocol:nth-child(2) {
     background: #fff;
@@ -374,7 +372,7 @@ section {
     font-size: 40px;
 }
 
-@media screen and (max-width:499px)  {
+@media screen and (max-width:499px) {
     .sol-protocol:nth-child(2) {
         font-size: 25px;
     }
@@ -421,7 +419,7 @@ section {
 
 
 .sol-flex-box {
-    width: min(400px,100%);
+    width: min(400px, 100%);
     height: auto;
     border-radius: 10px;
     background: #fff;
@@ -468,11 +466,22 @@ section {
     aspect-ratio: 16 / 9;
 }
 
+@media screen and (max-width:400px) {
+    .sol-img {
+        width: 120px;
+    }
+
+    .sol-img1 {
+        width: fit-content;
+    }
+}
+
 .sol-container {
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 1em;
-    margin: 3em 0 3em 15vw;
+    margin: 3em auto 3em;
 }
 
 .sol-radius {
@@ -501,7 +510,28 @@ section {
 .sol-subtitle {
     font-size: 30px;
     font-weight: 900;
+    width: fit-content;
     color: #1b5cb1;
+}
+
+@media screen and (max-width:400px) {
+
+    .sol-radius {
+        width: 60px;
+        height: 60px;
+    }
+
+    .sol-title {
+        font-style: 12px;
+    }
+
+    .sol-number {
+        font-size: 20px;
+    }
+
+    .sol-subtitle {
+        font-size: 25px;
+    }
 }
 
 .sol-msg {
@@ -650,7 +680,7 @@ section {
     margin: 0 auto;
     display: flex;
     align-items: center;
-    width: min(300px,90%);
+    width: min(300px, 90%);
     height: 150px;
     border-radius: 10px;
     box-shadow: 5px 5px 20px rgba(0, 0, 0, .20);
@@ -854,9 +884,7 @@ section {
     max-width: 1800px;
 }
 
-.cta-txt-box {
-
-}
+.cta-txt-box {}
 
 .cta-title {
     text-align: center;
@@ -880,7 +908,7 @@ section {
 
 .cta-block {
     margin: 3em auto;
-    width: min(400px,80%);
+    width: min(400px, 80%);
     border: 2px solid #00acee;
     text-align: center;
     border-radius: 12px;
@@ -889,12 +917,15 @@ section {
 .cta-link {
     background: #00acee;
     width: 100%;
+    margin: 2em auto;
     padding: 20px 3em;
     display: block;
     color: #fff;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 900;
     font-family: Arial;
+    text-align: center;
+    border: 2px solid #00acee;
     text-decoration: none;
     border-radius: 10px;
     transition: .4s ease;
@@ -919,12 +950,13 @@ section {
     }
 
     .cta-block {
-        width: min(700px,100%);
+        width: min(300px, 60%);
     }
 
     .cta-link {
-        font-size: 25px;
-        width: 300px;
+        font-size: 20px;
+        width: 250px;
+        margin: 2em auto;
     }
 }
 
@@ -965,7 +997,7 @@ section {
     font-size: 40px;
     font-weight: 900;
     transition: color .4s ease;
-    width: min(350px,90%);
+    width: min(350px, 90%);
 }
 
 .cta-tel:hover {
@@ -1158,17 +1190,17 @@ section {
         background: #fff;
     }
 
-    
+
     .lp-head-img {
         width: 180px;
         height: auto;
         display: block;
     }
-    
+
     .nav-list {
         display: block;
     }
-    
+
     .list-item {
         border: 2px solid #00acee;
         border-radius: 10px;
@@ -1177,7 +1209,7 @@ section {
         font-weight: 800;
         text-align: center;
     }
-    
+
     .link-item {
         color: #fff;
         background: #00acee;
@@ -1187,7 +1219,7 @@ section {
         text-decoration: none;
         transition: .4s ease;
     }
-    
+
     .link-item:hover {
         background: #fff;
         color: #00acee;
@@ -1200,7 +1232,7 @@ section {
     }
 
     /* fist vision */
-    
+
     .fv-img {
         margin: 0 auto;
         width: 60%;
@@ -1224,12 +1256,12 @@ section {
     .call-msg {
         font-size: 18px;
     }
-    
+
     .form-btn {
         width: 40%;
         min-width: 45%;
     }
-    
+
     .tel {
         font-size: 25px;
     }
@@ -1243,7 +1275,7 @@ section {
 
     .problem-grid {
         display: grid;
-        grid-template-columns: repeat(3,1fr);
+        grid-template-columns: repeat(3, 1fr);
         gap: 3em;
         padding: 0 2em;
         margin-right: 2em;
@@ -1337,7 +1369,7 @@ section {
 
     .cta-txt {
         text-align: left;
-        width: min(560px,80%);
+        width: min(560px, 80%);
         margin: 0;
         font-size: 18px;
         font-weight: 500;
@@ -1367,9 +1399,7 @@ section {
         gap: 7em;
     }
 
-    .foot-link {
-        
-    }
+    .foot-link {}
 
     .reserve {
         display: block;
@@ -1380,7 +1410,7 @@ section {
 
 /* pc */
 
-@media screen and (min-width:1024px) {
+@media screen (min-width:1024px) {
 
     /* header */
 
@@ -1390,7 +1420,7 @@ section {
         justify-content: space-between;
         align-items: center;
     }
-    
+
     .lp-head-img {
         margin-left: 3em;
     }
@@ -1432,7 +1462,7 @@ section {
 
     .problem-grid {
         display: grid;
-        grid-template-columns: repeat(3,1fr);
+        grid-template-columns: repeat(3, 1fr);
         gap: 3em;
         padding: 0 2em;
         margin: 0 auto;
@@ -1479,7 +1509,7 @@ section {
     .sol-container {
         margin: 0 0 20px 0;
     }
-    
+
     .sol-msg {
         margin: 0 0 20px 0;
     }
@@ -1557,7 +1587,7 @@ section {
 
     .str-grid {
         display: grid;
-        grid-template-columns: repeat(3,1fr);
+        grid-template-columns: repeat(3, 1fr);
         padding: 10vw 0;
         max-width: 1200px;
         gap: 0;
@@ -1571,6 +1601,10 @@ section {
         width: 80%;
         padding: 0;
         font-size: 18px;
+    }
+
+    .cta-link {
+        margin: 0 auto 2em;
     }
 
     /* footer */
